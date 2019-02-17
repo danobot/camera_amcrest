@@ -1,0 +1,28 @@
+{
+  "name": "camera_amcrest",
+  "version": "0.1.0",
+  "description": "Custom amcrest camera component",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "release": "standard-version -a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.danielha.tk/HA/camera_amcrest.git"
+  },
+  "author": "Daniel Mason",
+  "license": "MIT",
+  "devDependencies": {
+    "semantic-release": "^15.13.3",
+    "standard-version": "^4.4.0",
+    "replace-in-file": "^3.4.3"
+  },
+  "standard-version": {
+    "scripts": {
+      "precommit": "node postbump.js; git add tracker.json custom_components/camera/amcrest.py "
+    }
+  }
+}

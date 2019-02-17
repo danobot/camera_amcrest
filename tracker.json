@@ -1,0 +1,9 @@
+{
+    "lighting_sm_component": {
+      "version": "0.1.0",
+      "local_location": "custom_components/camera/amcrest.py",
+      "remote_location": "https://raw.githubusercontent.com/danobot/camera_amcrest/master/custom_components/camera/amcrest.py",
+      "visit_repo": "https://github.com/danobot/camera_amcrest",
+      "changelog": "https://github.com/danobot/camera_amcrest/blob/master/CHANGELOG.md"
+    }
+}
